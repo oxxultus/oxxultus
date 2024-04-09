@@ -3,11 +3,11 @@
 </p>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/VisualStudioCode-20232a.svg?style=for-the-badge&logo=visualstudiocode&logoColor=61DAFB" />&nbsp
+    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-20232a.svg?style=for-the-badge&logo=visualstudiocode&logoColor=61DAFB" />&nbsp
 </p>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/VisualStudio-20232a.svg?style=for-the-badge&logo=visualstudio&logoColor=DF75DB" />&nbsp
+    <img src="https://img.shields.io/badge/Visual%20Studio-20232a.svg?style=for-the-badge&logo=visualstudio&logoColor=DF75DB" />&nbsp
 </p>
 
 <p align='center'>
