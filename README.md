@@ -10,7 +10,8 @@
 </p>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />&nbsp
+    <img src="https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=Python" />&nbsp
+    <img src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c" />&nbsp
     <img src="https://img.shields.io/badge/C++-blue?style=for-the-badge&logo=cplusplus" />&nbsp
 </p>
 
