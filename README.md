@@ -3,10 +3,7 @@
 </p>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/C++-3776AB.svg?&style=for-the-badge&logo=cplusplus&logoColor=white"/>&nbsp
-    <img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=61DAFB" />&nbsp
-    <img src="https://img.shields.io/badge/C++-20232a.svg?style=for-the-badge&logo=cplusplus&logoColor=61DAFB" />&nbsp
-    <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />&nbsp
+    <img src="https://img.shields.io/badge/VisualStudioCode-20232a.svg?style=for-the-badge&logo=visualstudiocode&logoColor=61DAFB" />&nbsp
 </p>
 
 <p align='center'>
