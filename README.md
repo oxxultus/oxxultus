@@ -13,3 +13,5 @@
     <img src="https://img.shields.io/badge/Python-20232a.svg?style=for-the-badge&logo=Python&logoColor=white" />&nbsp
 </p>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pruinosus&theme=tokyonight">
+
