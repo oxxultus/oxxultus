@@ -3,8 +3,8 @@
     <br>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-20232a.svg?style=for-the-badge&logo=visualstudiocode&logoColor=61DAFB" />&nbsp
     <img src="https://img.shields.io/badge/Visual%20Studio-20232a.svg?style=for-the-badge&logo=visualstudio&logoColor=DF75DB" />&nbsp
-    <img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=white" />&nbsp
     <br>
+    <img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=white" />&nbsp
     <img src="https://img.shields.io/badge/C++-20232a.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />&nbsp
     <img src="https://img.shields.io/badge/Python-20232a.svg?style=for-the-badge&logo=Python&logoColor=white" />&nbsp
 </p>
