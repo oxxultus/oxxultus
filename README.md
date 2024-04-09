@@ -14,7 +14,7 @@
 </p>
 
 <p align='center'>
-    <img src="https://github-readme-stats.vercel.app/api?username=pruinosus&count_private=true&show_icons=true&theme=github_dark_dimmed"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=pruinosus&count_private=true&show_icons=true&theme=dark"/>
 </p>
 
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=pruinosus&theme=dark&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly&hide_longest_streak=true" alt="GitHub Streak" /></a>
