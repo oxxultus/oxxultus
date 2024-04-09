@@ -1,6 +1,8 @@
 <p align='center'>
     <img src="https://capsule-render.vercel.app/api?type=waving&color=2F3B51&height=300&section=header&text=Pruinosus%20Github&fontColor=FAF7F5&fontSize=90&animation=fadeIn&fontAlignY=38&desc=study%20programming&descAlignY=51&descAlign=62"/>
-    <br>
+</p>
+
+<p align='center'>
     <img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=white" />&nbsp
     <img src="https://img.shields.io/badge/C++-20232a.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />&nbsp
     <img src="https://img.shields.io/badge/Python-20232a.svg?style=for-the-badge&logo=Python&logoColor=white" />&nbsp
