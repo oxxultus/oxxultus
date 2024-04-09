@@ -7,11 +7,11 @@
 </p>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/VisualStudio-20232a.svg?style=for-the-badge&logo=visualstudio&logoColor=61DAFB" />&nbsp
+    <img src="https://img.shields.io/badge/VisualStudio-20232a.svg?style=for-the-badge&logo=visualstudio&logoColor=purple" />&nbsp
 </p>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=purple" />&nbsp
+    <img src="https://img.shields.io/badge/C-20232a.svg?style=for-the-badge&logo=c&logoColor=white" />&nbsp
     <img src="https://img.shields.io/badge/C++-20232a.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />&nbsp
     <img src="https://img.shields.io/badge/Python-20232a.svg?style=for-the-badge&logo=Python&logoColor=white" />&nbsp
 </p>
