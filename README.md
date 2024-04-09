@@ -7,7 +7,7 @@
 </p>
 
 <p align='center'>
-    <img src="https://img.shields.io/badge/VisualStudio-20232a.svg?style=for-the-badge&logo=visualstudio&logoColor=purple" />&nbsp
+    <img src="https://img.shields.io/badge/VisualStudio-20232a.svg?style=for-the-badge&logo=visualstudio&logoColor=DF75DB" />&nbsp
 </p>
 
 <p align='center'>
