@@ -13,7 +13,12 @@
     <img src="https://img.shields.io/badge/Python-20232a.svg?style=for-the-badge&logo=Python&logoColor=white" />&nbsp
 </p>
 
-<p align='center'>
-    <img src="https://github-readme-stats.vercel.app/api?username=pruinosus&count_private=true&show_icons=true&theme=dark"/>
-    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=pruinosus&theme=dark&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly&hide_longest_streak=true" alt="GitHub Streak" /></a>
-</p>
+<div style="display: flex; justify-content: center;">
+    <div style="margin-right: 10px;">
+        <img src="https://github-readme-stats.vercel.app/api?username=pruinosus&count_private=true&show_icons=true&theme=dark"/>
+    </div>
+    <div>
+        <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=pruinosus&theme=dark&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly&hide_longest_streak=true" alt="GitHub Streak" /></a>
+    </div>
+</div>
+
