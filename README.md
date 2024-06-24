@@ -14,8 +14,8 @@
 <p align='center'>
     <img src="https://img.shields.io/badge/C-20232a.svg?style=flat-square&logo=c&logoColor=00BFFF" />&nbsp <!-- c -->
     <img src="https://img.shields.io/badge/C++-20232a.svg?style=flat-square&logo=cplusplus&logoColor=00BFFF" />&nbsp <!-- c++ -->
-    <img src="https://img.shields.io/badge/Python-20232a.svg?style=flat-square&logo=Python&logoColor=blue" />&nbsp <!-- python -->
-    <img src="https://img.shields.io/badge/Java-20232a.svg?style=flat-square&logo=oracle&logoColor=#F80000" />&nbsp <!-- java -->
+    <img src="https://img.shields.io/badge/Python-20232a.svg?style=flat-square&logo=Python&logoColor=00BFFF" />&nbsp <!-- python -->
+    <img src="https://img.shields.io/badge/Java-20232a.svg?style=flat-square&logo=oracle&logoColor=#00BFFF" />&nbsp <!-- java -->
   <hr>
 </p>
 
