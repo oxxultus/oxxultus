@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-20232a.svg?style=flat-square&logo=visualstudiocode&logoColor=61DAFB" />&nbsp <!-- visualstudioCode -->
     <img src="https://img.shields.io/badge/Visual%20Studio-20232a.svg?style=flat-square&logo=visualstudio&logoColor=DF75DB" />&nbsp <!-- visualstudio -->
     <img src="https://img.shields.io/badge/Xcode-20232a.svg?style=flat-square&logo=xcode&logoColor=61DAFB" />&nbsp <!-- Xcode -->
-    <img src="https://img.shields.io/badge/IntellijIDEA-20232a.svg?style=flat-square&logo=intellijidea&logoColor=61DAFB" />&nbsp <!-- intellij idea -->
+    <img src="https://img.shields.io/badge/IntellijIDEA-20232a.svg?style=flat-square&logo=intellijidea&logoColor=white" />&nbsp <!-- intellij idea -->
   <hr>
 </p>
 <p align='center'>
