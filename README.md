@@ -1,5 +1,5 @@
 <p align='center'>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=2F3B51&height=300&section=header&text=Oxxultus%20Github&fontColor=FAF7F5&fontSize=90&animation=fadeIn&fontAlignY=38&desc=study%20programming&descAlignY=51&descAlign=62"/>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Oxxultus%20Github&fontColor=FAF7F5&fontSize=90&animation=fadeIn&fontAlignY=38&desc=study%20programming&descAlignY=51&descAlign=62"/> <!--2F3B51--!>
 </p>
 
 <p align='center'>
