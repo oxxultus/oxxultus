@@ -28,7 +28,7 @@
     </td>
     <td>
       <a href="https://git.io/streak-stats">
-        <img src="https://streak-stats.demolab.com?user=oxxultus&theme=dark&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly&hide_longest_streak=true" alt="GitHub Streak" />
+        <img src="https://streak-stats.demolab.com?user=oxxultus&theme=white&locale=ko&date_format=%5BY.%5Dn.j&mode=weekly&hide_longest_streak=true" alt="GitHub Streak" />
       </a>
     </td>
   </tr>
