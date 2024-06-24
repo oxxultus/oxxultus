@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/C-20232a.svg?style=flat-square&logo=c&logoColor=00BFFF" />&nbsp <!-- c -->
     <img src="https://img.shields.io/badge/C++-20232a.svg?style=flat-square&logo=cplusplus&logoColor=00BFFF" />&nbsp <!-- c++ -->
     <img src="https://img.shields.io/badge/Python-20232a.svg?style=flat-square&logo=Python&logoColor=blue" />&nbsp <!-- python -->
-    <img src="https://img.shields.io/badge/Java-20232a.svg?style=flat-square&logo=java&logoColor=blue" />&nbsp <!-- java -->
+    <img src="https://img.shields.io/badge/Java-20232a.svg?style=flat-square&logo=Java&logoColor=blue" />&nbsp <!-- java -->
   <hr>
 </p>
 
