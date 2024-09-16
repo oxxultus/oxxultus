@@ -1,7 +1,4 @@
-<p align='center'>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Oxxultus%20Github&fontColor=FAF7F5&fontSize=90&animation=fadeIn&fontAlignY=38&desc=study%20programming&descAlignY=51&descAlign=62"/> <!--2F3B51--!>
-</p>
-
+## Oxxultus
 <p align='center'>
     <img src="https://img.shields.io/badge/anaconda-20232a.svg?style=flat-square&logo=anaconda&logoColor=04B431" />&nbsp <!-- anaconda -->
     <img src="https://img.shields.io/badge/jupyter%20notebook-20232a.svg?style=flat-square&logo=jupyter&logoColor=FF8000" />&nbsp <!-- jupyter notebook -->
