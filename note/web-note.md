@@ -533,17 +533,8 @@ maxlength 속성과는 달리 입력 필드가 한 번에 보여줄 수 있는 
 | Math.random()                                         | `Math.random();` *// 0 <= 결과 < 1*<br>`var randomInt = Math.floor(Math.random() * 10);` *// 0~9 사이 정수*<br>`var randomInt = Math.floor(Math.random() * (max - min + 1)) + min;` *//min ~ max 사이 정수*                                                                   |
 |                                                       |                                                                                                                                                                                                                                                                     |
 |                                                       |                                                                                                                                                                                                                                                                     |
-| 객체                                                    |                                                                                                                                                                                                                                                                     |
+| **객체**                                                |                                                                                                                                                                                                                                                                     |
 | Date 객체                                               | `var today = new Date(); // 날짜 객체 생성`                                                                                                                                                                                                                               |
 | String 객체                                             | `var mystr = new Stirng("");`                                                                                                                                                                                                                                       |
 | Object 객체                                             | `var account = new Object();`<br>`account.owner = "홍길동";`<br>`account.inquiry = inquiry` *// inquiry 는 함수이다.*                                                                                                                                                       |
 | 리터럴 표기법을 사용한 객체<br>(, 으로 구분하며 함수 이름을 두 번작성하지 않게 조심하자) | `var account = {`<br>`    owner : "홍길동",`<br>`    inquary : function() {return this.balance; } ` *// functon 옆 함수 이름이 없다<br>`};`*                                                                                                                                   |
-
-
-
-
-
-
-
-
-
