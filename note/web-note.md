@@ -53,6 +53,7 @@
 <hr>
 ```
 
+
 #### 서식
 -  <b\></b\>태그는 단순히 화면의 텍스트를 굵게 표현해 줍니다.
 ```
@@ -468,299 +469,81 @@ maxlength 속성과는 달리 입력 필드가 한 번에 보여줄 수 있는 
 ```
 
 ---
+
 ### JSP
-#### 변수
-- 지역변수, 전역변수
-``` javascript
-var x = 100;
-funcion f(){
-	document.write("지역변수 x =" + x); // 지역 변수는 이름 그대로 사용한다.
-	document.write("전역변수 x =" + this.x); //전역변수는 this. 연산을 하면 된다.
-}
-```
-#### 배열
-- 원시 변수 배열
-``` javascript
-var varArray = [20, 5, 8, 15, 20];
-```
-- new Array() 객체 배열
-``` javascript
-var list = new Array();
-list[0] = 1; list[1] = 2; list[2] = 3; // 이 개수 만큼 배열 크기 초기화를 해야 사용가능
-```
-#### 이벤트
-- onmouseover : 객체에서 마우스가 올라왔을 때
-- ommouseout : 객체에서 마우스가 나갔을 때
 
-``` javascript
-<img src="apple.png" alt="image" onmouseover="this.src+'banana.png'" onmouseout="this.src+'apple.png'">
-```
+| Javascript                                            | description                                                                                                                                                                                                                                                         |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **변수**                                                |                                                                                                                                                                                                                                                                     |
+| 지역변수, 지역변수                                            | `var x = 100;`<br>`funcion f(){`<br>`	var x = 100;`<br>`	document.write("지역변수 x =" + x);` *// 지역 변수는 이름 그대로 사용한다.*<br>`	document.write("전역변수 x =" + this.x);` *//전역변수는 this. 연산을 하면 된다.*<br>`}`                                                                     |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| **배열**                                                |                                                                                                                                                                                                                                                                     |
+| 원시 변수 배열                                              | `var varArray = [20, 5, 8, 15, 20];`                                                                                                                                                                                                                                |
+| new Array() 객체 배열                                     | `var list = new Array();`<br>`list[0] = 1; list[1] = 2; list[2] = 3;` *// 이 개수 만큼 배열 크기 초기화를 해야 사용가능*                                                                                                                                                               |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| **이벤트**                                               |                                                                                                                                                                                                                                                                     |
+| onmouseover                                           | *객체에서 마우스가 올라왔을 때*                                                                                                                                                                                                                                                  |
+| ommouseout                                            | *객체에서 마우스가 나갔을 때*                                                                                                                                                                                                                                                   |
+| 사용 예                                                  | `<img src="apple.png" alt="image" onmouseover="this.src+'banana.png'" onmouseout="this.src+'apple.png'">`                                                                                                                                                           |
+|                                                       |                                                                                                                                                                                                                                                                     |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| **JSP 함수**                                            |                                                                                                                                                                                                                                                                     |
+| 사용자 함수                                                | `<script>`<br>`function over(obj){`<br>`	obj.src = "banana.png";`<br>`}`<br>`function out(obj){`<br>`	obj.src = "apple.png";`<br>`}`<br>`</script>`<br>`<body>`<br>`<img src="apple.png" alt="image" onmouseover="over(this)" onmouseout="out(this)">`<br>`</body>` |
+| document.write() 함수                                   | `<script>`<br>`document.write("... html code ..."); `<br>// 해당 부분에 html 코드를 작성하면 script태그 안에서 html코드를 작성할 수 있다.<br>`</script>`                                                                                                                                      |
+| document.getElementById("id") 함수 <br>& innerHTML      | `<div id ="print">`<br>`<script>`<br>`var print = document.getElementById("print")` *// print id를 가진 div 에 print변수로 접근*<br>`print.innerHTML = "출력하고 싶은 내용"` *// 해당 내용을 print id 를 가진 div 에 출력함*<br>`</script>`<br>`</div>`                                          |
+| alert("message") 함수                                   | `alert("... message ...");`<br>`// 확인해야 사라지는 팝업창이 뜬다.`                                                                                                                                                                                                              |
+| prompt("message", default) 함수                         | `var score = prompt("message", 100);`<br>*// 기본값을 설정 할 수있음<br>// 값을 입력받을 수 있다.<br>// 확인을 누르면 반환되는 개념*                                                                                                                                                               |
+| eval("string") 함수                                     | `var sum = eval("a+b");`<br>*// 수식을 계산해 준다.<br>// 보안성 문제로 사용하지 않는것이 좋다.*                                                                                                                                                                                            |
+| parseInt("string") 함수                                 | `var score = parseint("32");`<br>*// 문자열을 숫자로 바꾸어준다.*                                                                                                                                                                                                               |
+| isNaN() 함수                                            | `if(isNaN("NotANumber")){`<br>`	document.write("숫자가 아닙니다.");`<br>`}`<br>*// 숫자인지 확인 해 준다.*<br>*// 반환 값: boolean*                                                                                                                                                    |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| **Date 메서드(함수)**                                      | `var str1 = new String("Boys and Girls"); // String 객체 생성`<br>`var str2 = "!!" // 위 방법과 동일하다`                                                                                                                                                                       |
+| String.charAt(index)                                  | // index 에 위치한 유니코드 단일문자를 반환함<br>`str1.charAt(0);` // B                                                                                                                                                                                                             |
+| String.concat(string)                                 | // 두 문자열을 합친다. 원본 수정 하지 않는다.<br>`str1.concat(str2);` *// Boys and Girls!!*<br>`str1.concat(" 구분자 ",str2);` *// Boys and Girls 구분자 !!*                                                                                                                               |
+| String.indexOf(string)                                | *// str1 문자열에서 가장먼저 발견된 s의 인덱스 반환*<br>`str1.indexOf("s");` *// 3*<br><br>*// indexOf 문자열은 대소문자를 구분한다.*<br>`str1.indexOf("And");` *// 발견된 문자열이 없으면 -1 을 반환*                                                                                                          |
+| String.length                                         | `document.write("내용 :" + mystr + "<br>");`<br>`document.write("길이 :" + mystr.length + "<br>");`<br>*// length 메서드는 문자열만 처리가 가능하다 <br>// 숫자형 사용시: 변수.toStirng().length*                                                                                              |
+| String.slice(start, end)                              | // 원본을 수정하지 않음<br>`str1.slice(5, 8);` *// and*                                                                                                                                                                                                                      |
+| String.substr(start, count)                           | // 원본을 수정하지 않음<br>// 1번 인덱스를 포함하여 2개<br>`str1.substr(1, 2);` *// o y*                                                                                                                                                                                               |
+| String.toUpperCase()                                  | // 원본을 수정하지 않음<br>`str1.toUpperCase();` *// BOYS AND GIRLS*                                                                                                                                                                                                         |
+| String.replace(pattern, replacement)                  | // 원본을 수정하지 않음<br>`str1.replace("and", "or");` *// boys or girls*                                                                                                                                                                                                   |
+| String.trim()                                         | // 원본을 수정하지 않음<br>// 문자열 양끝의 공백을 제거한다.<br>`"  kitae ".replace();` *// [kitae]*                                                                                                                                                                                      |
+| String.split(string)                                  | // 원본을 수정하지 않음<br>*// string을 기준으로 단어를 나누어 반환한다<br>// 아래 방식으로 진행하면 and를 기준으로 boys와 girls 단어가 나누어진다.*<br>`str1.split("and");` *// ["Boys ", " Girls"]*                                                                                                               |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| **Array 배열 메서드(함수)**                                  | `var list = new Array();`<br>`list[0] = 1; list[1] = 2; list[2] = 3;` *// 이 개수 만큼 배열 크기 초기화를 해야 사용가능*                                                                                                                                                               |
+| Array.concat(array)                                   | *// 원본 훼손하지 않고list1뒤에 list2 를 이어붙여 새로운 배열 반환<br>// 얕은 복사*<br>`var list3 = list1.concat(list2);`                                                                                                                                                                     |
+| Array.join("구분자")                                     | `var list = ['정','박','수'];`<br>*// 원본은 바뀌지 않음<br>// 문자열을 반환함*<br>`list.join(); `<br>*// 구분자 기본값 => 정,박,수* <br>`list.join("");`<br>*// 구분자 공백, => 정박수*<br>`list.join("-");`<br>*// 구분자 - , => 정-박-수*                                                                 |
+| Array.slice(begin,end)                                | `var list = ['정','박','수'];`<br>*// 원본은 바뀌지 않음<br>// 1인덱스 부터 마지막 인덱스까지 반환*<br>`var list2 = list.slice(1); `<br>*// list2 = ['박','정']*                                                                                                                                |
+| Array.reverse()                                       | `var list = ['정','박','수'];`<br>*// 원본이 바뀜*<br>`list.reverse();` <br>*// ['정','박','수'] =>  ['수','박','정']*                                                                                                                                                            |
+| Array.sort(compareFunction)                           | `var list = [1,3,4,5,2,10000];`<br>*// 원본이 바뀜<br>// 함수가 없으면<br>// 문자열로 변환하고 유니코드 순서대로 정렬한다.*<br>`list.sort();` <br>*// [1, 10000, 2, 3, 4, 5] 그렇기에 10000이 2보다 앞에 있는것이다.*                                                                                            |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| **Date 메서드(함수)**                                      | `var today = new Date(); ` *// 날짜 객체 생성*                                                                                                                                                                                                                            |
+| Date.toGMTString()                                    | `document.write("현재시간 : " + today.toGMTString() + "<br>");`<br>*// 날짜와 시간을 GMT(그리니치 표준시) 형식의 문자열로 변환합니다.*                                                                                                                                                           |
+| Date.toUTCString()                                    | `document.write("현재시간 : " + today.toUTCString() + "<br>");`<br>*// 날짜와 시간을 UTC(Coordinated Universal Time, 협정 세계시) 형식의 문자열로 변환합니다.*                                                                                                                                 |
+| Date.getFullYear()                                    | `document.write("년도 : " + today.getFullYear() + "<br>");`<br>*// 4자리 연도(YYYY)를 반환합니다.*                                                                                                                                                                              |
+| Date.getMonth()                                       | `document.write("월 : " + today.getMonth() + "<br>");`<br>*// 해당 날짜의 월(month)을 반환합니다. <br>// 0부터 11까지의 숫자로 반환되기 때문에 1월은 0, 12월은 11로 표현됩니다.<br>// + 1 을 해야 기존의 월별로 표시가능*                                                                                              |
+| Date.getDate()                                        | `document.write("일 : " + today.getDate() + "<br>");`<br>*// 해당 날짜 객체의 일(day)을 반환합니다.*                                                                                                                                                                               |
+| Date.getHours()                                       | `document.write("시 : " + today.getHours() + "<br>");`<br>*// 해당 날짜 객체의 시간(시)을 0부터 23 사이의 정수로 반환합니다.*                                                                                                                                                                |
+| Date.getMinutes()                                     | `document.write("분 : " + today.getMinutes() + "<br>");`<br>*// 현재 시각의 분(minute)을 반환합니다. 반환값은 0에서 59 사이의 정수입니다.*                                                                                                                                                     |
+| Date.getSeconds()                                     | `document.write("분 : " + today.getSeconds() + "<br>");`<br>*// 현재 시간의 초(second)를 반환합니다. 반환되는 값은 0부터 59까지의 정수입니다.*                                                                                                                                                   |
+| Date.getMilliseconds()                                | `document.write("분 : " + today.getMilliseconds() + "<br>");`<br>*// 해당 날짜의 밀리초(0에서 999까지)를 반환 합니다.*                                                                                                                                                                 |
+| Date.toLocaleString()                                 | // 매개변수 기본값<br>// `year`, `month`, `day`, `hour`, `minute`, `second` <br>`var today = new Date(2017, 7, 15, 12, 12, 12);` *// 2번째 매개변수는 월 이므로 8월이다.*<br><br>// 날짜를 언어별로 구분하여 나타내는 문자열을 반환<br>`document.write(today.toLocaleString() + "<br>");`                     |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| **Math 메서드**                                          |                                                                                                                                                                                                                                                                     |
+| Math.floor()                                          | *// 양수 : 소수점 이하로 버림*<br>*// 음수 : 소수점 이하를 버리고 더 작은 정수로 이동*<br>`Math.floor(4.7); // 4`<br>`Math.floor(4.3); // 4`<br>`Math.floor(-4.7); // -5`<br>`Math.floor(-4.3); // -5`                                                                                           |
+| Math.random()                                         | `Math.random();` *// 0 <= 결과 < 1*<br>`var randomInt = Math.floor(Math.random() * 10);` *// 0~9 사이 정수*<br>`var randomInt = Math.floor(Math.random() * (max - min + 1)) + min;` *//min ~ max 사이 정수*                                                                   |
+|                                                       |                                                                                                                                                                                                                                                                     |
+|                                                       |                                                                                                                                                                                                                                                                     |
+| 객체                                                    |                                                                                                                                                                                                                                                                     |
+| Date 객체                                               | `var today = new Date(); // 날짜 객체 생성`                                                                                                                                                                                                                               |
+| String 객체                                             | `var mystr = new Stirng("");`                                                                                                                                                                                                                                       |
+| Object 객체                                             | `var account = new Object();`<br>`account.owner = "홍길동";`<br>`account.inquiry = inquiry` *// inquiry 는 함수이다.*                                                                                                                                                       |
+| 리터럴 표기법을 사용한 객체<br>(, 으로 구분하며 함수 이름을 두 번작성하지 않게 조심하자) | `var account = {`<br>`    owner : "홍길동",`<br>`    inquary : function() {return this.balance; } ` *// functon 옆 함수 이름이 없다<br>`};`*                                                                                                                                   |
 
-#### JSP 함수
-##### 사용자 함수를 만들어서 사용
-``` javascript
-<script>
-function over(obj){
-	obj.src = "banana.png";
-}
-function out(obj){
-	obj.src = "apple.png";
-}
-</script>
-<body>
-<img src="apple.png" alt="image" onmouseover="over(this)" onmouseout="out(this)">
-</body>
-```
 
-##### document.write() 함수
-``` javascript
-<script>
-document.write("... html code ..."); 
-// 해당 부분에 html 코드를 작성하면 script태그 안에서 html코드를 작성할 수 있다.
-</script>
-```
-##### document.getElementById("id") 함수 & innerHTML
-``` javascript
-<div id ="print">
-<script>
-var print = document.getElementById("print") // print id를 가진 div 에 print변수로 접근
-print.innerHTML = "출력하고 싶은 내용" // 해당 내용을 print id 를 가진 div 에 출력함
-</script>
-</div>
-``` 
-##### alert("message") 함수
-``` javascript
-alert("... message ...");
-// 확인해야 사라지는 팝업창이 뜬다.
-```
-##### prompt("message", default) 함수
-``` javascript
-var score = prompt("message", 100);
-// 기본값을 설정 할 수있음
-// 값을 입력받을 수 있다.
-// 확인을 누르면 반환되는 개념
-```
-##### eval("string") 함수
-``` javascript
-var sum = eval("a+b");
-// 수식을 계산해 준다.
-// 보안성 문제로 사용하지 않는것이 좋다.
-```
-##### parseInt("string") 함수
-``` javascript
-var score = parseint("32");
-// 문자열을 숫자로 바꾸어준다.
-```
-##### isNaN() 함수
-``` javascript
-if(isNaN("NotANumber")){
-	document.write("숫자가 아닙니다.");
-}
-// 숫자인지 확인 해 준다.
-// 반환 값: boolean
-```
 
-##### Array 배열 메서드(함수)
-###### Array.concat(array) 메서드
-``` javascript
-var list1 = new Array();
-var list2 = new Array();
 
-// 원본 훼손하지 않고list1뒤에 list2 를 이어붙여 새로운 배열 반환
-// 얕은 복사
-var list3 = list1.concat(list2); 
-```
-###### Array.join("구분자") 메서드
-``` javascript
-var list = ['정','박','수'];
-// 원본은 바뀌지 않음
-// 문자열을 반환함
-list.join(); 
-// 구분자 기본값 => 정,박,수 
-list.join("");
-// 구분자 공백, => 정박수
 
-list.join("-");
-// 구분자 - , => 정-박-수
-```
-###### Array.slice(begin,end) 메서드
-``` javascript
-var list = ['정','박','수'];
-// 원본은 바뀌지 않음
-// 1인덱스 부터 마지막 인덱스까지 반환
-var list2 = list.slice(1); 
-// list2 = ['박','정']
-```
-###### Array.reverse() 메서드
-``` javascript
-var list = ['정','박','수'];
-// 원본이 바뀜
-list.reverse(); 
-// ['정','박','수'] =>  ['수','박','정']
-```
-###### Array.sort(compareFunction) 메서드
-``` javascript
-var list = [1,3,4,5,2,10000];
-// 원본이 바뀜
-// 함수가 없으면
-// 문자열로 변환하고 유니코드 순서대로 정렬한다.
-list.sort(); 
-// [1,10000,2,3,4,5] 그렇기에 10000이 2보다 앞에 있는것이다.
-```
 
-##### Date 메서드(함수)
-###### Date.toGMTString() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("현재시간 : " + today.toGMTString() + "<br>");
-// 날짜와 시간을 GMT(그리니치 표준시) 형식의 문자열로 변환합니다.
-```
-###### Date.toUTCString() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("현재시간 : " + today.toUTCString() + "<br>");
-// 날짜와 시간을 UTC(Coordinated Universal Time, 협정 세계시) 형식의 문자열로 변환합니다.
-```
-###### Date.getFullYear() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("년도 : " + today.getFullYear() + "<br>");
-// 4자리 연도(YYYY)를 반환합니다.
-```
-###### Date.getMonth() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("월 : " + today.getMonth() + "<br>");
-// 해당 날짜의 월(month)을 반환합니다. 
-// 0부터 11까지의 숫자로 반환되기 때문에 1월은 0, 12월은 11로 표현됩니다.
-// + 1 을 해야 기존의 월별로 표시가능 
-```
-###### Date.getDate() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("일 : " + today.getDate() + "<br>");
-// 해당 날짜 객체의 일(day)을 반환합니다.
-```
-###### Date.getHours() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("시 : " + today.getHours() + "<br>");
-// 해당 날짜 객체의 시간(시)을 0부터 23 사이의 정수로 반환합니다.
-```
-###### Date.getMinutes() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("분 : " + today.getMinutes() + "<br>");
-// 현재 시각의 분(minute)을 반환합니다. 반환값은 0에서 59 사이의 정수입니다.
-```
-###### Date.getSeconds() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("분 : " + today.getSeconds() + "<br>");
-// 현재 시간의 초(second)를 반환합니다. 반환되는 값은 0부터 59까지의 정수입니다.
-```
-###### Date.getMilliseconds() 메서드
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("분 : " + today.getMilliseconds() + "<br>");
-// 해당 날짜의 밀리초(0에서 999까지)를 반환 합니다.
-```
-###### Date.toLocaleString() 메서드
-``` javascript
-// 매개변수 기본값
-// `year`, `month`, `day`, `hour`, `minute`, `second` 
-var today = new Date(2017, 7, 15, 12, 12, 12); // 2번째 매개변수는 월 이므로 8월이다.
 
-// 날짜를 언어별로 구분하여 나타내는 문자열을 반환
-document.write(today.toLocaleString() + "<br>");
-```
 
-##### String 메서드(함수)
-###### String.charAt(index) 메서드
-``` javascript
-var str1 = new String("Boys and Girls"); // String 객체 생성
 
-// index 에 위치한 유니코드 단일문자를 반환함
-str1.charAt(0); // B
-```
-###### String.concat(string) 메서드
-``` javascript
-var str1 = new String("Boys and Girls"); // String 객체 생성
-var str2 = "!!" // 위 방법과 동일하다
-
-// 두 문자열을 합친다. 원본 수정 하지 않는다.
-str1.concat(str2); // Boys and Girls!!
-str1.concat(" 구분자 ",str2); // Boys and Girls 구분자 !!
-```
-###### String.indexOf(string) 메서드
-``` javascript
-var str1 = new String("Boys and Girls"); // String 객체 생성
-
-// str1 문자열에서 가장먼저 발견된 s의 인덱스 반환
-str1.indexOf("s"); // 3
-
-// indexOf 문자열은 대소문자를 구분한다.
-str1.indexOf("And"); // 발견된 문자열이 없으면 -1 을 반환
-```
-###### String.slice(start, end) 메서드
-``` javascript
-var str1 = new String("Boys and Girls"); // String 객체 생성
-
-// 원본을 수정하지 않음
-str1.slice(5, 8); // and
-```
-###### String.substr(start, count) 메서드
-``` javascript
-var str1 = new String("Boys and Girls"); // String 객체 생성
-
-// 원본을 수정하지 않음
-// 1번 인덱스를 포함하여 2개
-str1.substr(1, 2); // o y
-```
-###### String.toUpperCase() 메서드
-``` javascript
-var str1 = new String("boys and girls"); // String 객체 생성
-
-// 원본을 수정하지 않음
-str1.toUpperCase(); // BOYS AND GIRLS
-```
-###### String.replace(pattern, replacement) 메서드
-``` javascript
-var str1 = new String("boys and girls"); // String 객체 생성
-
-// 원본을 수정하지 않음
-str1.replace("and", "or"); // boys or girls
-```
-###### String.trim() 메서드
-``` javascript
-// 원본을 수정하지 않음
-// 문자열 양끝의 공백을 제거한다.
-"  kitae ".replace(); // kitae
-```
-###### String.split(string) 메서드
-``` javascript
-// 원본을 수정하지 않음
-var str1 = new String("boys and girls"); // String 객체 생성
-
-// 원본을 수정하지 않음
-// string을 기준으로 단어를 나누어 반환한다
-// 아래 방식으로 진행하면 and를 기준으로 boys와 girls 단어가 나누어진다.
-str1.split("and"); // 
-```
-
-#### 객체
-- Date 객체
-``` javascript
-var today = new Date(); // 날짜 객체 생성
-document.write("현재시간 : " + today.toGMTString() + "<br>");
-// 날짜와 시간을 GMT(그리니치 표준시) 형식의 문자열로 변환합니다.
-```
-- String 객체
-``` javascript
-var mystr = new Stirng("자바스크립트 공부하기");
-
-document.write("내용 :" + mystr + "<br>");
-document.write("길이 :" + mystr.length + "<br>");
-// length 메서드는 문자열만 처리가 가능하다 
-// 숫자형 사용시: 변수.toStirng().length 
-```
