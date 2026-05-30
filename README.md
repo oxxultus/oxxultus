@@ -28,7 +28,7 @@
 
 ### Projects  임시작성용
 
-#### **Velo (Aeranghae)** 
+#### **[Velo (Aeranghae)](https://github.com/aeranghae/velo-main-api)** 
 > AI 기반 코드 자동 생성 플랫폼
 
 <details>
