@@ -35,7 +35,7 @@
 
 
 **Architecture**
-생략
+![Velo System Architecture](images/velo-system-architecture.gif)
 
 **주요 기술 내용**
 
