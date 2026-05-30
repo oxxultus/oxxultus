@@ -28,7 +28,7 @@
 
 ### Projects  임시작성용
 
-#### **[Velo (Aeranghae)](https://github.com/aeranghae/velo-main-api)** 
+#### **[Velo (Team: Aeranghae)](https://github.com/aeranghae/velo-main-api)** 
 > AI 기반 코드 자동 생성 플랫폼
 
 <details>
@@ -87,6 +87,23 @@
 - **해결 (Action):** `ServletServerContainerFactoryBean` 설정을 커스텀 정의하여 스프링 웹소켓의 인프라 한계를 직접 확장했습니다. AI 장기 연산 환경을 고려해 세션 및 비동기 송신 타임아웃을 **5분(300,000ms)**으로 상향 조정하고, 대용량 로그 수신 시 데이터 유실을 막기 위해 텍스트 및 바이너리 메시지 버퍼 크기를 **10MB**로 대폭 확충했습니다.
 - **결과 (Result):** 네트워크 병목이나 인프라 제약 없이 AI 자율 공정 전체 프로세스의 대용량 빌드 로그를 100% 무결하게 실시간으로 스트리밍하는 데 성공했습니다. 네트워크 세션 관리와 메모리 버퍼 임계치 설계의 중요성을 깨달았습니다.
 
+---
+
+</details>
 </details>
 
+
+#### **[Liminal (Side)](https://github.com/oxxultus/liminal)** 
+> 다중 LLM 엔진과 MCP 플러그인을 하나의 워크스페이스에서 운용하는 AI 데스크탑 클라이언트
+
+<details>
+<summary><b>상세 내용 및 기술적 성취 (클릭)</b></summary>
+
+<details>
+<summary><b>Troubleshooting (기술적 문제 해결 및 아키텍처 고민) 이후3개만 남기고 다뺄거임</b></summary>
+
 ---
+
+</details>
+</details>
+
