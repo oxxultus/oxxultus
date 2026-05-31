@@ -7,7 +7,9 @@
 <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: bold;">Backend</span><br>
 ![Java](https://img.shields.io/badge/JAVA-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SPRING%20BOOT-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Web MVC](https://img.shields.io/badge/SPRING%20WEB%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/SPRING%20DATA%20JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Spring Data Redis](https://img.shields.io/badge/SPRING%20DATA%20REDIS-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/SPRING%20SECURITY-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
 <br>
 
