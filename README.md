@@ -29,4 +29,4 @@
 ---
 
 ## 이력서 & 포트폴리오 (작성중)
-- https://oxxultus.github.io/resume/
+-
