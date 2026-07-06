@@ -27,6 +27,3 @@
 ![Linux](https://img.shields.io/badge/LINUX-FCC624?style=flat-square&logo=linux&logoColor=white)
 
 ---
-
-## 이력서 & 포트폴리오 (작성중)
--
