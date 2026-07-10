@@ -31,30 +31,27 @@
   <text class="mono command" x="58" y="35">fastfetch --profile youngjin</text>
 
   <g class="mono art" text-anchor="middle" aria-label="Headphone avatar ASCII art generated from the supplied image">
-    <text class="green" x="255" y="78">:=++++=:</text>
-    <text class="green" x="255" y="97">=***++++***=</text>
-    <text class="green" x="255" y="116">++-=+*##*+=-+*.</text>
-    <text class="green" x="255" y="135">+-:*%%@@@@%%#--*</text>
-    <text class="amber" x="255" y="154">-*-#%@@%%%%@@%%=*=</text>
-    <text class="amber" x="255" y="173">:***%%%%%%%%%%%%#**-</text>
-    <text class="amber" x="255" y="192">*##%%%%%%%%%%%%%%%##</text>
-    <text class="amber" x="255" y="211">+##%%%%%%%%%%%%%%##*</text>
-    <text class="red" x="255" y="230">-#*%%@%%%%%%%%@%%##=</text>
-    <text class="red" x="255" y="249">.*+**%@@@@@@@@%#*+*.</text>
-    <text class="red" x="255" y="268">.=*%%%%%%#+:</text>
-    <text class="red" x="255" y="287">:-==-:.</text>
-    <text class="purple" x="255" y="306">.-=+***+=:</text>
-    <text class="purple" x="255" y="325">-*#%@@@@@@%%#=.</text>
-    <text class="purple" x="255" y="344">:*%@@@@%%%%%@@@%#=.</text>
-    <text class="purple" x="255" y="363">=#%@%%%%%%%%%%%%@@%*:</text>
-    <text class="blue" x="255" y="382">=%@%%%%%%%%%%%%%%%%@%#:</text>
-    <text class="blue" x="255" y="401">-%%%%%%%%%%%%%%%%%%%%%%*.</text>
-    <text class="blue" x="255" y="420">.*%%%%%%%%%%%%%%%%%%%%%%%=</text>
-    <text class="blue" x="255" y="439">-%@%%%%%%%%%%%%%%%%%%%%%%*.</text>
-    <text class="blue" x="255" y="458">.*%%%%%%%%%%%%%%%%%%%%%%%=</text>
-    <text class="blue" x="255" y="477">-#%%%%%%%%%%%%%%%%%%%%%*.</text>
-    <text class="blue" x="255" y="496">=#%%%%%%%%%%%%%%%%#=</text>
-    <text class="blue" x="255" y="515">-+*#%%%%#*+-</text>
+    <text class="green" x="230" y="78">:=++++=:</text>
+    <text class="green" x="230" y="97">=***++++***=</text>
+    <text class="green" x="230" y="116">++-=+*##*+=-+*.</text>
+    <text class="green" x="230" y="135">+-:*%%@@@@%%#--*</text>
+    <text class="amber" x="230" y="154">-*-#%@@%%%%@@%%=*=</text>
+    <text class="amber" x="230" y="173">:***%%%%%%%%%%%%#**-</text>
+    <text class="amber" x="230" y="192">*##%%%%%%%%%%%%%%%##</text>
+    <text class="amber" x="230" y="211">+##%%%%%%%%%%%%%%##*</text>
+    <text class="red" x="230" y="230">-#*%%@%%%%%%%%@%%##=</text>
+    <text class="red" x="230" y="249">.*+**%@@@@@@@@%#*+*.</text>
+    <text class="red" x="230" y="268">.=*%%%%%%#+:</text>
+    <text class="red" x="230" y="287">:-==-:.</text>
+    <text class="purple" x="230" y="306">.-=+***+=:</text>
+    <text class="purple" x="230" y="325">-*#%@@@@@@%%#=.</text>
+    <text class="purple" x="230" y="344">:*%@@@@%%%%%@@@%#=.</text>
+    <text class="purple" x="230" y="363">=#%@%%%%%%%%%%%%@@%*:</text>
+    <text class="blue" x="230" y="382">=%@%%%%%%%%%%%%%%%%@%#:</text>
+    <text class="blue" x="230" y="401">-%%%%%%%%%%%%%%%%%%%%%%*.</text>
+    <text class="blue" x="230" y="420">.*%%%%%%%%%%%%%%%%%%%%%%%=</text>
+    <text class="blue" x="230" y="439">-%@%%%%%%%%%%%%%%%%%%%%%%*.</text>
+    <text class="blue" x="230" y="458">.*%%%%%%%%%%%%%%%%%%%%%%%=</text>
   </g>
 
   <g class="mono" aria-label="Backend profile information">
