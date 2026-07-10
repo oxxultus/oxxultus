@@ -25,7 +25,7 @@
     .art { font-size: 16px; }
   </style>
 
-  <rect class="terminal" width="1200" height="560" rx="12"/>
+  <rect class="terminal" width="1200" height="510" rx="12"/>
 
   <text class="mono prompt" x="32" y="35">❯</text>
   <text class="mono command" x="58" y="35">fastfetch --profile youngjin</text>
