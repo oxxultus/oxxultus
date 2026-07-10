@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="500" viewBox="0 0 1040 500" role="img" aria-labelledby="title desc">
+  <title id="title">김영진 Backend Developer fastfetch profile</title>
+  <desc id="desc">컬러 ASCII 아바타와 Java 백엔드 기술 스택을 fastfetch 형식으로 보여주는 프로필</desc>
+
+  <style>
+    .terminal { fill: #141419; }
+    .mono {
+      font-family: "SFMono-Regular", "Cascadia Code", Consolas, "Liberation Mono", monospace;
+      font-size: 17px;
+      font-weight: 500;
+      font-variant-ligatures: none;
+      white-space: pre;
+    }
+    .prompt { fill: #74d400; font-weight: 700; }
+    .command { fill: #62dfbd; }
+    .heading { fill: #62dfbd; font-size: 20px; font-weight: 700; }
+    .rule { fill: #d8d7df; }
+    .label { fill: #e5ad61; font-weight: 700; }
+    .value { fill: #d8d7df; }
+    .muted { fill: #92909c; }
+    .green { fill: #62dfbd; }
+    .amber { fill: #e5ad61; }
+    .red { fill: #ef6666; }
+    .purple { fill: #a77bf3; }
+    .blue { fill: #62b8e8; }
+  </style>
+
+  <rect class="terminal" width="1040" height="500" rx="12"/>
+
+  <text class="mono prompt" x="32" y="35">❯</text>
+  <text class="mono command" x="58" y="35">fastfetch --profile youngjin</text>
+
+  <g class="mono" aria-label="ASCII avatar">
+    <text class="green" x="64" y="82">            .-=++++=-.</text>
+    <text class="green" x="64" y="104">           =+++++*++++=</text>
+    <text class="green" x="64" y="126">          +-=*%%%%%%#+-+.</text>
+    <text class="green" x="64" y="148">         +++%@@@@@@@@%*++</text>
+    <text class="green" x="64" y="170">        +##%@%%%%%%%%@%##+</text>
+    <text class="amber" x="64" y="192">        +##%@%%%%%%%%@%%#*</text>
+    <text class="amber" x="64" y="214">        -##%%@@%%%%@@%%##=</text>
+    <text class="amber" x="64" y="236">         ---+#%@@@@%%*---</text>
+    <text class="red" x="64" y="258">             .-=+++-. </text>
+    <text class="red" x="64" y="280">            :-+*****=-.</text>
+    <text class="red" x="64" y="302">          -*%@@@@@@@@%#+:</text>
+    <text class="red" x="64" y="324">        -#%@@@%%%%%%%@@@%+.</text>
+    <text class="purple" x="64" y="346">       =%@@%%%%%%%%%%%%%@@#:</text>
+    <text class="purple" x="64" y="368">      =%@%%%%%%%%%%%%%%%%@@*.</text>
+    <text class="purple" x="64" y="390">     .#@%%%%%%%%%%%%%%%%%%@%=</text>
+    <text class="blue" x="64" y="412">    :%@%%%%%%%%%%%%%%%%%%%%@#:</text>
+    <text class="blue" x="64" y="434">   :%@%%%%%%%%%%%%%%%%%%%%%%@#:</text>
+    <text class="blue" x="64" y="456">  :#@@@@@@@@@@@@@@@@@@@@@@@@@@#:</text>
+  </g>
+
+  <g class="mono" aria-label="Backend profile information">
+    <text class="heading" x="455" y="84">youngjin@backend</text>
+    <text class="rule" x="455" y="108">-----------------------------------</text>
+
+    <text x="455" y="142"><tspan class="label">Name:</tspan><tspan class="value" x="615">김영진</tspan></text>
+    <text x="455" y="174"><tspan class="label">Role:</tspan><tspan class="value" x="615">Backend Developer</tspan></text>
+    <text x="455" y="206"><tspan class="label">Language:</tspan><tspan class="value" x="615">Java</tspan></text>
+    <text x="455" y="238"><tspan class="label">Framework:</tspan><tspan class="value" x="615">Spring Boot · Web MVC</tspan></text>
+    <text x="455" y="270"><tspan class="label">Security:</tspan><tspan class="value" x="615">Spring Security</tspan></text>
+    <text x="455" y="302"><tspan class="label">Persistence:</tspan><tspan class="value" x="615">Spring Data JPA</tspan></text>
+    <text x="455" y="334"><tspan class="label">Database:</tspan><tspan class="value" x="615">Oracle · PostgreSQL · MySQL</tspan></text>
+    <text x="455" y="366"><tspan class="label">Cache:</tspan><tspan class="value" x="615">Redis · Spring Data Redis</tspan></text>
+    <text x="455" y="398"><tspan class="label">Infra:</tspan><tspan class="value" x="615">Nginx · Kubernetes · Docker</tspan></text>
+    <text x="455" y="430"><tspan class="label">OS:</tspan><tspan class="value" x="615">Linux</tspan></text>
+
+    <text x="455" y="468">
+      <tspan class="green">●</tspan><tspan class="amber">  ●</tspan><tspan class="red">  ●</tspan>
+      <tspan class="purple">  ●</tspan><tspan class="blue">  ●</tspan><tspan class="muted">  ●  ●  ●</tspan>
+    </text>
+  </g>
+</svg>
