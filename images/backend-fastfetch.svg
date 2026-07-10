@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
   <title id="title">김영진 Backend Developer fastfetch profile</title>
-  <desc id="desc">헤드폰을 쓴 사람의 컬러 ASCII 아트와 Java 백엔드 기술 스택</desc>
+  <desc id="desc">첨부 아바타의 명암을 문자 밀도로 변환한 컬러 ASCII 아트와 Java 백엔드 기술 스택</desc>
 
   <style>
     .terminal { fill: #141419; }
@@ -22,6 +22,7 @@
     .red { fill: #ef6666; }
     .purple { fill: #a77bf3; }
     .blue { fill: #62b8e8; }
+    .art { font-size: 16px; }
   </style>
 
   <rect class="terminal" width="1200" height="520" rx="12"/>
@@ -29,25 +30,27 @@
   <text class="mono prompt" x="32" y="35">❯</text>
   <text class="mono command" x="58" y="35">fastfetch --profile youngjin</text>
 
-  <g class="mono" aria-label="Headphone avatar ASCII art">
-    <text class="green" x="48" y="80">          .-============-.</text>
-    <text class="green" x="48" y="102">       .-'                '-.</text>
-    <text class="green" x="48" y="124">      /     .----------.     \</text>
-    <text class="green" x="48" y="146">     /     /            \     \</text>
-    <text class="amber" x="48" y="168">    |     |              |     |</text>
-    <text class="amber" x="48" y="190">  .-|     |              |     |-.</text>
-    <text class="amber" x="48" y="212"> /  |     |              |     |  \</text>
-    <text class="amber" x="48" y="234">|   |     |              |     |   |</text>
-    <text class="red" x="48" y="256"> \  |      \            /      |  /</text>
-    <text class="red" x="48" y="278">  '-|       '----------'       |-'</text>
-    <text class="red" x="48" y="300">     \                      /</text>
-    <text class="red" x="48" y="322">      '.___            ___.'</text>
-    <text class="purple" x="48" y="344">          '----------'</text>
-    <text class="purple" x="48" y="366">        .-============-.</text>
-    <text class="purple" x="48" y="388">     .-'                '-.</text>
-    <text class="blue" x="48" y="410">   .'                      '.</text>
-    <text class="blue" x="48" y="432">  /                          \</text>
-    <text class="blue" x="48" y="454"> /____________________________\</text>
+  <g class="mono art" aria-label="Headphone avatar ASCII art generated from the supplied image">
+    <text class="green" x="54" y="78">               :=++++=:</text>
+    <text class="green" x="54" y="97">             =***++++***=</text>
+    <text class="green" x="54" y="116">            ++-=+*##*+=-+*.</text>
+    <text class="green" x="54" y="135">           +-:*%%@@@@%%#--*</text>
+    <text class="amber" x="54" y="154">          -*-#%@@%%%%@@%%=*=</text>
+    <text class="amber" x="54" y="173">         :***%%%%%%%%%%%%#**-</text>
+    <text class="amber" x="54" y="192">         *##%%%%%%%%%%%%%%%##</text>
+    <text class="amber" x="54" y="211">         +##%%%%%%%%%%%%%%##*</text>
+    <text class="red" x="54" y="230">         -#*%%@%%%%%%%%@%%##=</text>
+    <text class="red" x="54" y="249">         .*+**%@@@@@@@@%#*+*.</text>
+    <text class="red" x="54" y="268">             .=*%%%%%%#+:</text>
+    <text class="red" x="54" y="287">                :-==-:.</text>
+    <text class="purple" x="54" y="306">              .-=+***+=:</text>
+    <text class="purple" x="54" y="325">            -*#%@@@@@@%%#=.</text>
+    <text class="purple" x="54" y="344">          :*%@@@@%%%%%@@@%#=.</text>
+    <text class="purple" x="54" y="363">         =#%@%%%%%%%%%%%%@@%*:</text>
+    <text class="blue" x="54" y="382">        =%@%%%%%%%%%%%%%%%%@%#:</text>
+    <text class="blue" x="54" y="401">       -%%%%%%%%%%%%%%%%%%%%%%*.</text>
+    <text class="blue" x="54" y="420">      .*%%%%%%%%%%%%%%%%%%%%%%%=</text>
+    <text class="blue" x="54" y="439">      -%@%%%%%%%%%%%%%%%%%%%%%%*.</text>
   </g>
 
   <g class="mono" aria-label="Backend profile information">
