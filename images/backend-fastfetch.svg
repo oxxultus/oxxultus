@@ -22,7 +22,7 @@
     .red { fill: #ef6666; }
     .purple { fill: #a77bf3; }
     .blue { fill: #62b8e8; }
-    .art { font-size: 16px; }
+    .art { font-size: 14px; }
   </style>
 
   <rect class="terminal" width="1200" height="560" rx="12"/>
@@ -30,31 +30,32 @@
   <text class="mono prompt" x="32" y="35">❯</text>
   <text class="mono command" x="58" y="35">fastfetch --profile youngjin</text>
 
-  <g class="mono art" text-anchor="middle" aria-label="Headphone avatar ASCII art generated from the supplied image">
-    <text class="green" x="255" y="78">:=++++=:</text>
-    <text class="green" x="255" y="97">=***++++***=</text>
-    <text class="green" x="255" y="116">++-=+*##*+=-+*.</text>
-    <text class="green" x="255" y="135">+-:*%%@@@@%%#--*</text>
-    <text class="amber" x="255" y="154">-*-#%@@%%%%@@%%=*=</text>
-    <text class="amber" x="255" y="173">:***%%%%%%%%%%%%#**-</text>
-    <text class="amber" x="255" y="192">*##%%%%%%%%%%%%%%%##</text>
-    <text class="amber" x="255" y="211">+##%%%%%%%%%%%%%%##*</text>
-    <text class="red" x="255" y="230">-#*%%@%%%%%%%%@%%##=</text>
-    <text class="red" x="255" y="249">.*+**%@@@@@@@@%#*+*.</text>
-    <text class="red" x="255" y="268">.=*%%%%%%#+:</text>
-    <text class="red" x="255" y="287">:-==-:.</text>
-    <text class="purple" x="255" y="306">.-=+***+=:</text>
-    <text class="purple" x="255" y="325">-*#%@@@@@@%%#=.</text>
-    <text class="purple" x="255" y="344">:*%@@@@%%%%%@@@%#=.</text>
-    <text class="purple" x="255" y="363">=#%@%%%%%%%%%%%%@@%*:</text>
-    <text class="blue" x="255" y="382">=%@%%%%%%%%%%%%%%%%@%#:</text>
-    <text class="blue" x="255" y="401">-%%%%%%%%%%%%%%%%%%%%%%*.</text>
-    <text class="blue" x="255" y="420">.*%%%%%%%%%%%%%%%%%%%%%%%=</text>
-    <text class="blue" x="255" y="439">-%@%%%%%%%%%%%%%%%%%%%%%%*.</text>
-    <text class="blue" x="255" y="458">.*%%%%%%%%%%%%%%%%%%%%%%%=</text>
-    <text class="blue" x="255" y="477">-#%%%%%%%%%%%%%%%%%%%%%*.</text>
-    <text class="blue" x="255" y="496">=#%%%%%%%%%%%%%%%%#=</text>
-    <text class="blue" x="255" y="515">-+*#%%%%#*+-</text>
+  <g class="mono art" text-anchor="middle" xml:space="preserve" aria-label="Symmetric headphone avatar built from block characters">
+    <text class="green" x="255" y="74">▄████████████████▄</text>
+    <text class="green" x="255" y="92">▄███▀              ▀███▄</text>
+    <text class="green" x="255" y="110">▄██▀     ▄████████▄     ▀██▄</text>
+    <text class="green" x="255" y="128">██▀     ▄████████████▄     ▀██</text>
+    <text class="amber" x="255" y="146">▄██▌     ████████████████     ▐██▄</text>
+    <text class="amber" x="255" y="164">████▌    ██████████████████    ▐████</text>
+    <text class="amber" x="255" y="182">█████▌   ████████████████████   ▐█████</text>
+    <text class="amber" x="255" y="200">█████▌   ████████████████████   ▐█████</text>
+    <text class="red" x="255" y="218">████▌    ██████████████████    ▐████</text>
+    <text class="red" x="255" y="236">▀██▌     ▀██████████████▀     ▐██▀</text>
+    <text class="red" x="255" y="254">▀██▄      ▀████████▀      ▄██▀</text>
+    <text class="red" x="255" y="272">▀███▄                ▄███▀</text>
+    <text class="red" x="255" y="290">▀▀████████████████▀▀</text>
+
+    <text class="purple" x="255" y="326">▄████████████████████▄</text>
+    <text class="purple" x="255" y="344">▄████████████████████████▄</text>
+    <text class="purple" x="255" y="362">▄████████████████████████████▄</text>
+    <text class="purple" x="255" y="380">████████████████████████████████</text>
+    <text class="blue" x="255" y="398">██████████████████████████████████</text>
+    <text class="blue" x="255" y="416">████████████████████████████████████</text>
+    <text class="blue" x="255" y="434">████████████████████████████████████</text>
+    <text class="blue" x="255" y="452">▀████████████████████████████████▀</text>
+    <text class="blue" x="255" y="470">▀████████████████████████████▀</text>
+    <text class="blue" x="255" y="488">▀██████████████████████▀</text>
+    <text class="blue" x="255" y="506">▀▀████████████▀▀</text>
   </g>
 
   <g class="mono" aria-label="Backend profile information">
