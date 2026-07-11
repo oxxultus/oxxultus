@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="590"
+     height="130"
+     viewBox="0 0 590 130"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">김영진 기술 블로그</title>
+  <desc id="desc">김영진의 기술 블로그로 이동하는 터미널 스타일 배너</desc>
+
+  <style>
+    .terminal {
+      fill: #141419;
+    }
+
+    .border {
+      fill: none;
+      stroke: #2b2b33;
+      stroke-width: 2;
+    }
+
+    .card {
+      fill: #1a1a20;
+      stroke: #303039;
+      stroke-width: 1.5;
+    }
+
+    .mono {
+      font-family:
+        "SFMono-Regular",
+        "Cascadia Code",
+        Consolas,
+        "Liberation Mono",
+        monospace;
+      font-variant-ligatures: none;
+    }
+
+    .prompt {
+      fill: #74d400;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .command {
+      fill: #62dfbd;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .heading {
+      fill: #a77bf3;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .label {
+      fill: #e5ad61;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .value {
+      fill: #d8d7df;
+      font-size: 12px;
+    }
+
+    .muted {
+      fill: #92909c;
+      font-size: 11px;
+    }
+
+    .arrow {
+      fill: #a77bf3;
+      font-size: 25px;
+      font-weight: 700;
+    }
+  </style>
+
+  <!-- 배경 -->
+  <rect class="terminal"
+        width="590"
+        height="130"
+        rx="10"/>
+
+  <rect class="border"
+        x="1"
+        y="1"
+        width="588"
+        height="128"
+        rx="9"/>
+
+  <!-- 명령어 -->
+  <text class="mono prompt"
+        x="18"
+        y="28">❯</text>
+
+  <text class="mono command"
+        x="40"
+        y="28">click --blog youngjin</text>
+
+  <!-- 카드 -->
+  <rect class="card"
+        x="18"
+        y="43"
+        width="554"
+        height="70"
+        rx="7"/>
+
+  <text class="mono heading"
+        x="35"
+        y="65">블로그</text>
+
+  <text class="mono"
+        x="35"
+        y="86">
+    <tspan class="label">Posts:</tspan>
+    <tspan class="value"
+           x="92">https://oxxultus.github.io/resume/blog/</tspan>
+  </text>
+
+  <text class="mono muted"
+        x="35"
+        y="104">
+    Java · Spring · Architecture · Troubleshooting
+  </text>
+
+  <text class="mono arrow"
+        x="535"
+        y="88">→</text>
+</svg>
