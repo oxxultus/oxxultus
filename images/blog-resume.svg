@@ -5,8 +5,8 @@
      role="img"
      aria-labelledby="title desc">
 
-  <title id="title">김영진 GitHub and Blog Links</title>
-  <desc id="desc">GitHub와 Blog로 이동하는 fastfetch 스타일 링크 배너</desc>
+  <title id="title">김영진 Resume and Blog Links</title>
+  <desc id="desc">이력서(포트폴리오) 개인 블로그로 이동하는 fastfetch 스타일 링크 배너</desc>
 
   <style>
     .terminal {
@@ -114,7 +114,7 @@
 
   <text class="mono command"
         x="58"
-        y="40">open --links youngjin</text>
+        y="40">click --links youngjin</text>
 
   <!-- GitHub card -->
   <g>
@@ -127,14 +127,14 @@
 
     <text class="mono heading"
           x="60"
-          y="100">GitHub</text>
+          y="100">포트폴리오</text>
 
     <text class="mono"
           x="60"
           y="130">
-      <tspan class="label">Profile:</tspan>
+      <tspan class="label">Site:</tspan>
       <tspan class="value"
-             x="150">github.com/a38027928</tspan>
+             x="120">https://oxxultus.github.io/resume/</tspan>
     </text>
 
     <text class="mono muted"
@@ -159,14 +159,14 @@
 
     <text class="mono blog-heading"
           x="645"
-          y="100">Blog</text>
+          y="100">블로그</text>
 
     <text class="mono"
           x="645"
           y="130">
       <tspan class="label">Posts:</tspan>
       <tspan class="value"
-             x="730">your-blog-url.com</tspan>
+             x="710">https://oxxultus.github.io/resume/blog/</tspan>
     </text>
 
     <text class="mono muted"
@@ -181,10 +181,10 @@
   </g>
 
   <!-- color palette -->
-  <circle cx="1020" cy="195" r="4" class="green"/>
-  <circle cx="1040" cy="195" r="4" class="amber"/>
-  <circle cx="1060" cy="195" r="4" class="red"/>
-  <circle cx="1080" cy="195" r="4" class="purple"/>
-  <circle cx="1100" cy="195" r="4" class="blue"/>
+  <!--circle cx="1020" cy="195" r="4" class="green"/-->
+  <!--circle cx="1040" cy="195" r="4" class="amber"/-->
+  <!--circle cx="1060" cy="195" r="4" class="red"/-->
+  <!--circle cx="1080" cy="195" r="4" class="purple"/-->
+  <!--circle cx="1100" cy="195" r="4" class="blue"/-->
 
 </svg>
