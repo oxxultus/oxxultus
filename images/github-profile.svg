@@ -78,13 +78,13 @@
 
   <!-- heading -->
   <text class="mono heading" x="140" y="75">
-    Explore my GitHub
+    Explore my Resume
   </text>
 
   <!-- info -->
   <text class="mono" x="140" y="102">
-    <tspan class="label">Profile:</tspan>
-    <tspan class="value" x="245">github.com/a38027928</tspan>
+    <tspan class="label">Resume:</tspan>
+    <tspan class="value" x="245">https://oxxultus.github.io/resume/</tspan>
   </text>
 
   <text class="mono muted" x="140" y="128">
