@@ -1,0 +1,111 @@
+<a href="https://github.com/a38027928">
+  <svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="150"
+     viewBox="0 0 1200 150"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">김영진 GitHub Profile</title>
+  <desc id="desc">GitHub Profile Link Banner</desc>
+
+  <style>
+    .terminal { fill:#141419; }
+    .border { fill:none; stroke:#2b2b33; stroke-width:2; }
+
+    .mono{
+      font-family:"SFMono-Regular","Cascadia Code",Consolas,monospace;
+      font-variant-ligatures:none;
+    }
+
+    .prompt{
+      fill:#74d400;
+      font-size:20px;
+      font-weight:700;
+    }
+
+    .command{
+      fill:#62dfbd;
+      font-size:20px;
+      font-weight:700;
+    }
+
+    .heading{
+      fill:#62dfbd;
+      font-size:19px;
+      font-weight:700;
+    }
+
+    .label{
+      fill:#e5ad61;
+      font-size:17px;
+      font-weight:700;
+    }
+
+    .value{
+      fill:#d8d7df;
+      font-size:17px;
+    }
+
+    .muted{
+      fill:#92909c;
+      font-size:15px;
+    }
+
+    .green{fill:#62dfbd;}
+    .amber{fill:#e5ad61;}
+    .red{fill:#ef6666;}
+    .purple{fill:#a77bf3;}
+    .blue{fill:#62b8e8;}
+  </style>
+
+  <rect class="terminal" width="1200" height="150" rx="12"/>
+  <rect class="border" x="1" y="1" width="1198" height="148" rx="11"/>
+
+  <!-- prompt -->
+  <text class="mono prompt" x="30" y="42">❯</text>
+  <text class="mono command" x="58" y="42">
+    github --open youngjin
+  </text>
+
+  <!-- left icon -->
+  <text x="55"
+        y="105"
+        font-size="55"
+        fill="#d8d7df"
+        text-anchor="middle">
+        &lt;/&gt;
+  </text>
+
+  <!-- heading -->
+  <text class="mono heading" x="140" y="75">
+    Explore my GitHub
+  </text>
+
+  <!-- info -->
+  <text class="mono" x="140" y="102">
+    <tspan class="label">Profile:</tspan>
+    <tspan class="value" x="245">github.com/a38027928</tspan>
+  </text>
+
+  <text class="mono muted" x="140" y="128">
+    Java · Spring Boot · Redis · Docker · Kubernetes · Open Source
+  </text>
+
+  <!-- right -->
+  <text class="mono" x="1070" y="92"
+        fill="#62dfbd"
+        font-size="42"
+        font-weight="700">
+        →
+  </text>
+
+  <!-- bottom dots -->
+  <circle cx="1015" cy="123" r="4" class="green"/>
+  <circle cx="1035" cy="123" r="4" class="amber"/>
+  <circle cx="1055" cy="123" r="4" class="red"/>
+  <circle cx="1075" cy="123" r="4" class="purple"/>
+  <circle cx="1095" cy="123" r="4" class="blue"/>
+
+</svg>
+</a>
