@@ -68,8 +68,8 @@
   </text>
 
   <!-- left icon -->
-  <text x="55"
-        y="105"
+  <text x="75"
+        y="114"
         font-size="55"
         fill="#d8d7df"
         text-anchor="middle">
@@ -92,18 +92,18 @@
   </text>
 
   <!-- right -->
-  <text class="mono" x="1070" y="92"
+  <text class="mono" x="1106" y="98"
         fill="#62dfbd"
-        font-size="42"
-        font-weight="700">
+        font-size="100"
+        font-weight="1600">
         →
   </text>
 
   <!-- bottom dots -->
-  <circle cx="1015" cy="123" r="4" class="green"/>
-  <circle cx="1035" cy="123" r="4" class="amber"/>
-  <circle cx="1055" cy="123" r="4" class="red"/>
-  <circle cx="1075" cy="123" r="4" class="purple"/>
-  <circle cx="1095" cy="123" r="4" class="blue"/>
+  <circle cx="1085" cy="123" r="4" class="green"/>
+  <circle cx="1105" cy="123" r="4" class="amber"/>
+  <circle cx="1125" cy="123" r="4" class="red"/>
+  <circle cx="1145" cy="123" r="4" class="purple"/>
+  <circle cx="1165" cy="123" r="4" class="blue"/>
 
 </svg>
