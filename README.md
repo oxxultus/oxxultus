@@ -2,7 +2,7 @@
 <p align="center">
   <a href="https://oxxultus.github.io/resume/">
     <img
-      src="./resume-blog.svg"
+      src="./blog-resume.svg"
       width="49%"
       alt="김영진 GitHub"
     />
@@ -10,7 +10,7 @@
 
   <a href="https://oxxultus.github.io/resume/blog/">
     <img
-      src="./resume-blog.svg"
+      src="./blog-resume.svg"
       width="49%"
       alt="김영진 Blog"
     />
